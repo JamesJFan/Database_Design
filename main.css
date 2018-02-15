@@ -1,0 +1,215 @@
+.container {
+	margin: auto;
+  	padding:0 10px;
+  	width: 100%;
+}
+
+.row {
+  	display: flex;
+  	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 680px) {
+  	.container {
+    	max-width: 670px;
+  	}
+}
+
+@media screen and (min-width: 980px) {
+  	.container {
+    	max-width: 970px;
+  	}
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+    	max-width: 1270px;
+    }
+}
+
+
+@media screen and (max-width: 679px) {
+    .col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+	  width: 100%;
+	}
+}
+
+@media screen and (min-width:680px) {
+
+  	.col-1 {
+    	width: 8.33%;
+  	}
+
+  	.col-2 {
+    	width: 16.66%;
+  	}
+
+	.col-3 {
+	   	width: 25%;
+	}
+
+	.col-4{
+		width: 33.33%;
+	}
+
+	.col-5 {
+	  	width: 41.66%;
+	}
+
+	.col-6 {
+	  	width: 50%;
+	}
+
+	.col-7 {
+	    width: 58.33%;
+	}
+
+	.col-8 {
+	    width: 66.66%;
+	}
+
+	.col-9 {
+	    width: 75%;
+	}
+
+	.col-10 {
+	    width: 83.33%;
+	}
+
+	.col-11 {
+	    width: 91.66%;
+	}
+
+	.col-12 {
+	    width: 100%;
+	}
+}
+
+/* 2. Page Aesthetic */
+
+
+a, a:hover  {
+  	text-decoration: none;
+}
+
+img {
+  	max-width: 100%;
+}
+
+div {
+  	box-sizing: border-box;
+}
+
+* {
+  	font-family: "Lato", Helvetica, sans-serif;
+}
+
+body, a {
+  	color: #536F71;
+}
+
+/* 3. Design */
+
+header {
+  	border-bottom: 3px solid #624151;
+  	margin: 10px 0 35px;
+}
+
+.logo {
+  	padding: 10px;
+  	text-align: center;
+}
+
+.logo img {
+  	margin-top: 10px;
+  	max-width: 200px;
+}
+
+.signature {
+  	color: black;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+
+.name {
+  	font-weight: 500;
+  	font-size: 3em;
+  	margin-bottom: 0;
+}
+
+.signature h3 {
+  	margin-top: 0.5em;
+  	font-weight: 400;
+}
+
+.featured-work {
+  	margin:  10px -8px 35px;
+}
+
+.featured-work h2 {
+  	text-align: center;
+  	font-size: 2em;
+  	font-weight: 400;
+  	color: #701430;
+}
+
+.project {
+  	padding: 0 10px;
+  	text-align: center;
+}
+
+.project figure {
+  	margin: 0px;
+}
+
+.project h3 {
+  	text-transform: uppercase;
+  	margin-bottom: 0;
+  	color: #624151;
+  	font-size: 1.8em;
+  	font-weight: 300;
+}
+
+.project figure p {
+	font-size: .9em;
+}
+
+
+/* 4. Responsive Media Queries */
+
+@media screen and (min-width:680px) {
+
+  	.featured-work {
+    	margin-top: 0;
+  	}
+
+  	.featured-work h2 {
+  		text-align: left;
+  		padding-left: 15px;
+  	}
+
+  	.logo {
+    	padding-top: 20px;
+    	text-align: left;
+    	padding-bottom: 0px;
+    	margin-bottom: 0px;
+  	}
+
+  	.signature {
+  		margin-top: 0;
+    	text-align: right;
+  	}
+
+}
+
